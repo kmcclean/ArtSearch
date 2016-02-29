@@ -5,3 +5,5 @@ for that particular piece.
 At the moment, the front end is not set up. Currently the system returns the name of the pieces, as well as the number
 from each artist and the museums where they might be found. In order to access this, please run "ArtSearchMain.py" in the
 ArtSearch/src folder.
+
+Requires the BeautifulSoup4 and Django libraries.
