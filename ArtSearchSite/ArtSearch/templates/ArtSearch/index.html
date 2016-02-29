@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Art Searcher</title>
+    <link rel="stylesheet" href="{% static 'css/ArtSearchStyleSheet.css' %}">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+
+
+</head>
+<body>
+    <p>Art Search Program<br>
+        This program allows the user to search several different art museums and see the results.
+        <input title="search_bar" id="search_bar"> <button id = "search_button" onclick="test()">Search for Art</button>
+    <p>
+    <p>
+        <select id="art_results"></select>
+    </p>
+    <p>
+        <input type="text" id="piece_title" readonly>Title<br><br>
+        <input type="text" id="artist" readonly>Artist<br><br>
+        <input type="text" id="year" readonly>Year<br><br>
+        <input type="text" id="museum" readonly>Museum<br><br>
+    </p>
+    <!--Put image in here-->
+    <img id="art_image"src="">
+    <script src="../../static/js/ArtSearchJavaScript.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+The goal of this is to create a project that uses Django to host a search vehicle that finds individual pieces of art
+from art museums and galleries in the Twin Cities. The search engine will display the results, along with any image available
+for that particular piece.
+
+At the moment, the front end is not set up. Currently the system returns the name of the pieces, as well as the number
+from each artist and the museums where they might be found. In order to access this, please run "ArtSearchMain.py" in the
+ArtSearch/src folder.
